@@ -1,0 +1,76 @@
+:root {
+  --box2Color: ;
+  --createAccount: ;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+  .box-1 {
+    flex: 1;
+    order: 1;
+    border: solid;
+    padding: 15px;
+
+    background: url(/img/flying-whale.jpeg) no-repeat center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  }
+
+.logo{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    margin-top: 21%;
+    margin-left:10% ;
+    
+}
+
+
+  .box-2 {.
+    flex: 1;
+    order: 2;
+    border: solid;
+    padding: 20px;
+    background-color: var(--box2Color);
+   
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: cente
+    
+  }
+
+.paragraph{
+  margin-bottom: 78px;
+  border:  solid 4px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.form {
+  border: solid thick;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.log-in{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-evenly;
+}
+button{
+  margin-top: 30px;
+}
+

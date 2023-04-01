@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-1">
+        <div class="logo">
+          <h1>Dream's Land</h1>
+        </div>
+      </div>
+      <div class="box-2">
+        <div class="paragraph">
+          <p>
+            START ACTING LIKE THE PERSON YOU WANT TO BE, AND SOON YOU WILL BE
+            THAT PERSON. -Barrie Davenport
+          </p>
+          <p>
+            Lofty thoughts have high morals or intellectual value and are
+            elevated in nature or style..
+          </p>
+        </div>
+        <form class="form" action="" method="">
+          <legend>Become a Dreamer</legend>
+          <div class="input">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" id="first-name" name="firstName" />
+          </div>
+          <div class="input">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" id="last-name" name="last-Name" />
+          </div>
+          <div class="input">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="input">
+            <label for="phone-number">PHONE NUMBER</label>
+            <input type="text" id="phone-number" name="phone-number" />
+          </div>
+          <div class="input">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div class="input">
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              required
+            />
+          </div>
+          <div class="button">
+            <button type="submit">Create Account</button>
+          </div>
+        </form>
+        <div class="log-in audio">
+          <p>Already have an account?</p>
+          <a href="">Log in</a>
+          <audio src="/sound/littleDreamer.mp3" controls></audio>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
