@@ -1,6 +1,10 @@
+
 :root {
-  --box2Color: ;
-  --createAccount: ;
+  --txt: #DAAB68;
+}
+
+h1{
+  color: black;
 }
 
 body{
@@ -13,13 +17,20 @@ body{
   width: 100vw;
   height: 100vh;
 }
+.logo{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    margin-top: 21%;
+    margin-left:10% ;
+  padding: 15px 0;
+    
+}
 
   .box-1 {
     flex: 1;
-    order: 1;
     border: solid;
-    padding: 15px;
-
+    
     background: url(/img/flying-whale.jpeg) no-repeat center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -28,34 +39,28 @@ body{
   
   }
 
-.logo{
-  display: flex;
-  justify-content: center;
-    align-items: center;
-    margin-top: 21%;
-    margin-left:10% ;
-    
-}
-
 
   .box-2 {.
     flex: 1;
-    order: 2;
     border: solid;
     padding: 20px;
-    background-color: var(--box2Color);
-   
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: cente
+  flex-flow: column wrap;
+  justify-content: center;
+  ::backdrop
+  color: var(--txt);
+  background-color: black;
     
   }
 
 .paragraph{
-  margin-bottom: 78px;
+  margin-bottom: 50px;
   border:  solid 4px;
   padding: 20px;
   border-radius: 6px;
+  color: var(--txt);
+  background-color: black;
+  
 }
 
 .form {
@@ -65,11 +70,13 @@ body{
   border: solid thick;
   padding: 20px;
   border-radius: 6px;
+  background-color: black;
 }
 legend{
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  font-size: 28px;
+  color: var(--txt);
 }
 
 .input{
@@ -79,15 +86,40 @@ legend{
     width: 40%;
     font-size: 0.8rem;
     padding: 8px;
+    color: var(--txt);
 }
+input{
+  background-color: #DAAB68;
+  opacity: 0.8;
+}
+
 
 .log-in{
   display: flex;
   flex: 1;
   align-items: center;
   justify-content: space-evenly;
+  color: var(--txt);
+  background-color: black;
+  font-size: 1.2em;
+}
+a{
+  color: #BC4E57;
 }
 button{
-  margin-top: 30px;
+  background-color: black ;
+  color:#DAAB68;
+  font-weight: 700;
+  font-size: 1.2em;
+  border: 2px solid #DAAB68;
+  border-radius: 5px;
+  padding: 10px 40px;
+  margin: 40px 0;
+}
+
+.sun-moon{
+ height: 180px;
+ width: 180px;
+ float: right;
 }
 
