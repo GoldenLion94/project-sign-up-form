@@ -2,52 +2,59 @@
 :root {
   --txt: #DAAB68;
 }
-
-h1{
-  color: black;
+*, *::before, *::after{
+  margin: 0px;
+padding: 0px;
+box-sizing: border-box;
 }
+
 
 body{
   margin: 0;
   padding: 0;
 }
+
 .container {
   display: flex;
   flex-flow: row wrap;
-  width: 100vw;
-  height: 100vh;
+  background-color: black;
+ 
 }
 .logo{
   display: flex;
   justify-content: center;
-    align-items: center;
-    margin-top: 21%;
-    margin-left:10% ;
-  padding: 15px 0;
+    align-items: center;  
+      position: relative;    ;
+    color: var(--txt);
+    background-color: black;
+padding: 8px;
+    opacity: 0.7;
+    margin-top: 21.5%;
+    
+
     
 }
 
   .box-1 {
     flex: 1;
     border: solid;
-    
     background: url(/img/flying-whale.jpeg) no-repeat center;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
   
   }
 
 
   .box-2 {.
     flex: 1;
-    border: solid;
-    padding: 20px;
+    border: 15px solid black;
+   
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  ::backdrop
   color: var(--txt);
   background-color: black;
     
@@ -63,6 +70,9 @@ body{
   
 }
 
+.paragraph p{
+padding-bottom: 10px;
+}
 .form {
   display: flex;
   flex-flow: column wrap;
@@ -89,10 +99,9 @@ legend{
     color: var(--txt);
 }
 input{
-  background-color: #DAAB68;
+  background-color: var(--txt);
   opacity: 0.8;
 }
-
 
 .log-in{
   display: flex;
@@ -102,24 +111,22 @@ input{
   color: var(--txt);
   background-color: black;
   font-size: 1.2em;
+  box-sizing: border-box;
+  padding: 15px;
 }
 a{
   color: #BC4E57;
 }
 button{
   background-color: black ;
-  color:#DAAB68;
+  color:var(--txt);
   font-weight: 700;
   font-size: 1.2em;
-  border: 2px solid #DAAB68;
+  border: 2px solid var(--txt);
   border-radius: 5px;
   padding: 10px 40px;
   margin: 40px 0;
 }
 
-.sun-moon{
- height: 180px;
- width: 180px;
- float: right;
-}
+
 
